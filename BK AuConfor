@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BK AuConfor - Transport, Logistique et Management</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+    header {
+      background: linear-gradient(90deg, #002f6c, #00509e);
+      color: #fff;
+      text-align: center;
+      padding: 2em 1em;
+      position: relative;
+    }
+    .logo {
+      position: absolute;
+      top: 15px;
+      left: 20px;
+      font-size: 1.5em;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo i {
+      color: #ffd700;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin-top: 0.5em;
+      font-size: 1.2em;
+      font-style: italic;
+    }
+    nav {
+      margin-top: 1em;
+    }
+    nav a {
+      color: #ffd700;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    section {
+      padding: 4em 2em;
+      max-width: 1100px;
+      margin: auto;
+      background: #fff;
+      margin-bottom: 2em;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .services div {
+      margin-bottom: 2em;
+    }
+    .services div i {
+      font-size: 2em;
+      color: #00509e;
+      margin-bottom: 10px;
+    }
+    h2 {
+      color: #004080;
+      text-align: center;
+      margin-bottom: 1em;
+    }
+    h3 {
+      color: #00509e;
+      margin-bottom: 0.5em;
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      margin-top: 2em;
+    }
+    input, textarea {
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+    button {
+      background-color: #00509e;
+      color: #fff;
+      border: none;
+      padding: 15px;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #003f7d;
+    }
+    footer {
+      background-color: #002f6c;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      font-size: 0.9em;
+    }
+    @media (max-width: 768px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+      section {
+        padding: 2em 1em;
+      }
+      .logo {
+        position: static;
+        justify-content: center;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <i class="fas fa-cogs"></i> BK AuConfor
+  </div>
+  <h1>BK AuConfor</h1>
+  <p>Optimiser aujourd'hui, performer demain.</p>
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#apropos">À propos</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="accueil">
+  <h2>Bienvenue chez BK AuConfor</h2>
+  <p>Votre partenaire de confiance pour optimiser vos opérations de Transport, Logistique, Management et Organisation.</p>
+  <p>Avec plus de 10 ans d'expérience, nous vous aidons à atteindre l'excellence opérationnelle, à piloter vos projets et à former vos équipes.</p>
+</section>
+
+<section id="apropos">
+  <h2>À propos</h2>
+  <p>BK AuConfor, fondé par Boubacar KEITA, est né de la volonté d’accompagner les entreprises dans leur recherche de performance durable.</p>
+  <p>Nos valeurs : Excellence, Innovation, Engagement, Respect.</p>
+</section>
+
+<section id="services">
+  <h2>Nos Services</h2>
+  <div class="services">
+    <div>
+      <i class="fas fa-truck"></i>
+      <h3>Transport & Logistique</h3>
+      <p>Gestion et optimisation de vos flux logistiques et de vos opérations de transport.</p>
+    </div>
+    <div>
+      <i class="fas fa-people-group"></i>
+      <h3>Management & Organisation</h3>
+      <p>Structuration d'équipes, coaching de managers, amélioration des processus internes.</p>
+    </div>
+    <div>
+      <i class="fas fa-chart-line"></i>
+      <h3>Optimisation de la Performance</h3>
+      <p>Diagnostic organisationnel, plans d'actions sur mesure, pilotage de la performance.</p>
+    </div>
+    <div>
+      <i class="fas fa-tasks"></i>
+      <h3>Gestion de Projet</h3>
+      <p>Accompagnement sur toutes les étapes de vos projets stratégiques et opérationnels.</p>
+    </div>
+    <div>
+      <i class="fas fa-graduation-cap"></i>
+      <h3>Formations professionnelles</h3>
+      <p>Sessions sur mesure en gestion, transport, logistique, management et organisation.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contactez-nous</h2>
+  <p>Email : contact@bkauconfor.com</p>
+  <p>Téléphone : +33 X XX XX XX XX</p>
+  <form>
+    <input type="text" placeholder="Votre nom" required>
+    <input type="email" placeholder="Votre email" required>
+    <textarea placeholder="Votre message" rows="5" required></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 BK AuConfor - Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
